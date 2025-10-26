@@ -4,7 +4,8 @@
 <UserStyle>
 <se:FeatureTypeStyle>
 <se:Rule>
-<se:Name>Strasse</se:Name>
+<se:Name>Gebaeude</se:Name>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gebaeude</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
