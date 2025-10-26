@@ -24,8 +24,8 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 <se:Rule>
-<se:Name>Trottoir / Verkehrsinsel / Flugplatz</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Trottoir / Verkehrsinsel / Flugplatz</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
+<se:Name>Trottoir</se:Name>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Trottoir</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -84,8 +84,8 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 <se:Rule>
-<se:Name>Gartenanlagen und uebrige Humusierte</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Gartenanlagen und uebrige Humusierte</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
+<se:Name>Gartenanlage</se:Name>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Gartenanlage</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
