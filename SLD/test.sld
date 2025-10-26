@@ -14,7 +14,7 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 <se:Rule>
-<se:Name>Strasse_Weg</se:Name>
+<se:Name>Strasse</se:Name>
 <ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Strasse_Weg</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
