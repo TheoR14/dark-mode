@@ -24,8 +24,8 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 <se:Rule>
-<se:Name>Trottoir</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Trottoir</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
+<se:Name>Trottoir_Verkehrsinsel_Flugplatz</se:Name>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Trottoir_Verkehrsinsel_Flugplatz</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
