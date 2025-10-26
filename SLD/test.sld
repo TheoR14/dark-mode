@@ -13,7 +13,7 @@
 <se:SvgParameter name="fill">#c8c8c8</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
-<se:SvgParameter name="stroke">#000000</se:SvgParameter>
+<se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
 <se:SvgParameter name="stroke-width">0.50</se:SvgParameter>
 </se:Stroke>
 </se:PolygonSymbolizer>
@@ -22,3 +22,4 @@
 </UserStyle>
 </NamedLayer>
 </StyledLayerDescriptor>
+
