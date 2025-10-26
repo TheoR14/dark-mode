@@ -44,8 +44,8 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 <se:Rule>
-<se:Name>Gewaesser / Wasserbecken</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Gewaesser / Wasserbecken</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
+<se:Name>Gewaesser_Wasserbecken</se:Name>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Gewaesser_Wasserbecken</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -54,8 +54,8 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 <se:Rule>
-<se:Name>uebrige befestigte</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>uebrige befestigte</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
+<se:Name>uebrige_befestigte</se:Name>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>uebrige_befestigte</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -114,8 +114,8 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 <se:Rule>
-<se:Name>geschlossener Wald</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>geschlossener Wald</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
+<se:Name>geschlossener_Wald</se:Name>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>geschlossener_Wald</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
