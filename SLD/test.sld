@@ -44,8 +44,8 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 <se:Rule>
-<se:Name>Gewaesser_fliessend</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Gewaesser_fliessend</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
+<se:Name>Gewaesser_fliessendes</se:Name>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>Art</ogc:PropertyName><ogc:Literal>Gewaesser_fliessendes</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
