@@ -6,8 +6,7 @@
 <se:FeatureTypeStyle>
 <se:Rule>
 <se:Name>Gebaeude</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gebaeude</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gebaeude</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
-<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gebaeude</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
@@ -21,7 +20,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Strasse</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Strasse_Weg</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Strasse_Weg</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
@@ -49,7 +48,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Bahn</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Bahn</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Bahn</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
@@ -77,7 +76,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>uebrige befestigte</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_befestigte</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_befestigte</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
@@ -91,7 +90,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Acker / Wiese / Weide</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Acker_Weise_Weide</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Acker_Weise_Weide</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
@@ -133,7 +132,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Moore</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Hoch_Flachmoor</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Hoch_Flachmoor</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
@@ -147,7 +146,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Schilfguertel</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Schilfguertel</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Schilfguertel</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
@@ -161,7 +160,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>geschlossener Wald</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>geschlossener_Wald</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>geschlossener_Wald</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
