@@ -119,7 +119,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Gartenanlagen und uebrige Humusierte</se:Name>
-<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gartenanlage</ogc:Literal></ogc:PropertyIsEqualTo><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_humusierte</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
@@ -147,7 +147,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Schilfguertel</se:Name>
-<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Schilfguertel</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
