@@ -62,7 +62,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Gewaesser / Wasserbecken</se:Name>
-<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gewaesser_fliessendes</ogc:Literal></ogc:PropertyIsEqualTo><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gewaesser_stehendes</ogc:Literal></ogc:PropertyIsEqualTo><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Wasserbecken</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
