@@ -174,7 +174,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Wald</se:Name>
-<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Wytweide_dicht</ogc:Literal></ogc:PropertyIsEqualTo><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Wytweide_offen</ogc:Literal></ogc:PropertyIsEqualTo><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_bestockt</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><org:OR><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Wytweide_dicht</ogc:Literal></ogc:PropertyIsEqualTo><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Wytweide_offen</ogc:Literal></ogc:PropertyIsEqualTo><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_bestockte</ogc:Literal></ogc:PropertyIsEqualTo></org:OR></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
