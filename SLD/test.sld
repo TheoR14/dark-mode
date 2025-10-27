@@ -90,7 +90,7 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Acker / Wiese / Weide</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Acker_Weise_Weide</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Acker_Wiese_Weide</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter><se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
