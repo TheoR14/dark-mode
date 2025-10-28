@@ -13,7 +13,7 @@
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#ffc8c8</se:SvgParameter>
+<se:SvgParameter name="fill">#370000</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -30,7 +30,7 @@
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#dcdcdc</se:SvgParameter>
+<se:SvgParameter name="fill">#222222</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -51,7 +51,7 @@
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#dcdcdc</se:SvgParameter>
+<se:SvgParameter name="fill">#222222</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -68,7 +68,7 @@
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#f0e6c8</se:SvgParameter>
+<se:SvgParameter name="fill">#372d0f</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -89,7 +89,7 @@
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#96c8ff</se:SvgParameter>
+<se:SvgParameter name="fill">#003269</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -106,7 +106,7 @@
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#f0f0f0</se:SvgParameter>
+<se:SvgParameter name="fill">#0f0f0f</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -123,7 +123,7 @@
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#f0ffc8</se:SvgParameter>
+<se:SvgParameter name="fill">#283700</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -143,7 +143,7 @@
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#ffffc8</se:SvgParameter>
+<se:SvgParameter name="fill">#373600</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -163,7 +163,7 @@
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#f0ffc8</se:SvgParameter>
+<se:SvgParameter name="fill">#283700</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -180,7 +180,7 @@
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#c8fff0</se:SvgParameter>
+<se:SvgParameter name="fill">#003728</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -197,7 +197,7 @@
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#c8fff0</se:SvgParameter>
+<se:SvgParameter name="fill">#003728</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -214,7 +214,7 @@
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#a0f0a0</se:SvgParameter>
+<se:SvgParameter name="fill">#0f5f0f</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -235,7 +235,7 @@
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#c8f0a0</se:SvgParameter>
+<se:SvgParameter name="fill">#375f0f</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
