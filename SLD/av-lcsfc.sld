@@ -1,11 +1,14 @@
-<StyledLayerDescriptor version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld https://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<NamedLayer>
+<?xml version='1.0' encoding='utf-8'?>
+<sld:StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc" xmlns:org="http://www.opengis.net/org" xmlns:se="http://www.opengis.net/se" xmlns:sld="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld https://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
+<sld:NamedLayer>
 <se:Name>LCSFC</se:Name>
-<UserStyle>
+<sld:UserStyle>
 <se:FeatureTypeStyle>
 <se:Rule>
 <se:Name>Gebaeude</se:Name>
-<ogc:Filter><ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gebaeude</ogc:Literal></ogc:PropertyIsEqualTo></ogc:Filter>
+<ogc:Filter>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gebaeude</ogc:Literal></ogc:PropertyIsEqualTo>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -20,6 +23,9 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Strasse</se:Name>
+<ogc:Filter>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Strasse_Weg</ogc:Literal></ogc:PropertyIsEqualTo>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -34,6 +40,13 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Trottoir / Verkehrsinsel / Flugplatz</se:Name>
+<ogc:Filter>
+<org:OR>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Trottoir</ogc:Literal></ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Verkehrsinsel</ogc:Literal></ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Flugplatz</ogc:Literal></ogc:PropertyIsEqualTo>
+</org:OR>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -48,6 +61,9 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Bahn</se:Name>
+<ogc:Filter>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Bahn</ogc:Literal></ogc:PropertyIsEqualTo>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -62,6 +78,13 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Gewaesser / Wasserbecken</se:Name>
+<ogc:Filter>
+<org:OR>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gewaesser_fliessendes</ogc:Literal></ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gewaesser_stehendes</ogc:Literal></ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Wasserbecken</ogc:Literal></ogc:PropertyIsEqualTo>
+</org:OR>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -76,6 +99,9 @@
 </se:Rule>
 <se:Rule>
 <se:Name>uebrige befestigte</se:Name>
+<ogc:Filter>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_befestigte</ogc:Literal></ogc:PropertyIsEqualTo>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -90,6 +116,9 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Acker / Wiese / Weide</se:Name>
+<ogc:Filter>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Acker_Wiese_Weide</ogc:Literal></ogc:PropertyIsEqualTo>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -104,6 +133,12 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Intensivkulturen</se:Name>
+<ogc:Filter>
+<org:OR>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Reben</ogc:Literal></ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_Intensivkultur</ogc:Literal></ogc:PropertyIsEqualTo>
+</org:OR>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -118,6 +153,12 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Gartenanlagen und uebrige Humusierte</se:Name>
+<ogc:Filter>
+<org:OR>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gartenanlage</ogc:Literal></ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_humusierte</ogc:Literal></ogc:PropertyIsEqualTo>
+</org:OR>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -132,6 +173,9 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Moore</se:Name>
+<ogc:Filter>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Hoch_Flachmoor</ogc:Literal></ogc:PropertyIsEqualTo>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -146,6 +190,9 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Schilfguertel</se:Name>
+<ogc:Filter>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Schilfguertel</ogc:Literal></ogc:PropertyIsEqualTo>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -160,6 +207,9 @@
 </se:Rule>
 <se:Rule>
 <se:Name>geschlossener Wald</se:Name>
+<ogc:Filter>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>geschlossener_Wald</ogc:Literal></ogc:PropertyIsEqualTo>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -174,6 +224,13 @@
 </se:Rule>
 <se:Rule>
 <se:Name>Wald</se:Name>
+<ogc:Filter>
+<org:OR>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Wytweide_dicht</ogc:Literal></ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Wytweide_offen</ogc:Literal></ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_bestockte</ogc:Literal></ogc:PropertyIsEqualTo>
+</org:OR>
+</ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
@@ -202,7 +259,6 @@
 </se:PolygonSymbolizer>
 </se:Rule>
 </se:FeatureTypeStyle>
-</UserStyle>
-</NamedLayer>
-</StyledLayerDescriptor>
-
+</sld:UserStyle>
+</sld:NamedLayer>
+</sld:StyledLayerDescriptor>
