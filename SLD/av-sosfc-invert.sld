@@ -70,13 +70,13 @@
 <se:Mark>
 <se:WellKnownName>circle</se:WellKnownName>
 <se:Fill>
-<se:SvgParameter name="fill">#6496ff</se:SvgParameter>
+<se:SvgParameter name="fill">#00319b</se:SvgParameter>
 </se:Fill>
 </se:Mark>
 <se:Size>2</se:Size>
 </se:Graphic>
 </se:GraphicFill>
-<se:SvgParameter name="fill">#6496ff</se:SvgParameter>
+<se:SvgParameter name="fill">#00319b</se:SvgParameter>
 </se:Fill>
 </se:PolygonSymbolizer>
 <se:PolygonSymbolizer>
@@ -100,13 +100,13 @@
 <se:Mark>
 <se:WellKnownName>circle</se:WellKnownName>
 <se:Fill>
-<se:SvgParameter name="fill">#969696</se:SvgParameter>
+<se:SvgParameter name="fill">#696969</se:SvgParameter>
 </se:Fill>
 </se:Mark>
 <se:Size>2</se:Size>
 </se:Graphic>
 </se:GraphicFill>
-<se:SvgParameter name="fill">#969696</se:SvgParameter>
+<se:SvgParameter name="fill">#696969</se:SvgParameter>
 </se:Fill>
 </se:PolygonSymbolizer>
 <se:PolygonSymbolizer>
@@ -125,7 +125,7 @@
 <se:MaxScaleDenominator>2001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#969696</se:SvgParameter>
+<se:SvgParameter name="fill">#696969</se:SvgParameter>
 </se:Fill>
 </se:PolygonSymbolizer>
 <se:PolygonSymbolizer>
