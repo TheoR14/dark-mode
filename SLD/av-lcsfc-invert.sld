@@ -10,7 +10,7 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Gebaeude</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#370000</se:SvgParameter>
@@ -27,7 +27,7 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Strasse_Weg</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#222222</se:SvgParameter>
@@ -48,7 +48,7 @@
 </org:OR>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#222222</se:SvgParameter>
@@ -65,7 +65,7 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Bahn</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#372d0f</se:SvgParameter>
@@ -86,7 +86,7 @@
 </org:OR>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#003269</se:SvgParameter>
@@ -103,7 +103,7 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebrige_befestigte</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#0f0f0f</se:SvgParameter>
@@ -120,7 +120,7 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Acker_Wiese_Weide</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#283700</se:SvgParameter>
@@ -140,7 +140,7 @@
 </org:OR>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#373600</se:SvgParameter>
@@ -160,7 +160,7 @@
 </org:OR>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#283700</se:SvgParameter>
@@ -177,7 +177,7 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Hoch_Flachmoor</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#003728</se:SvgParameter>
@@ -194,7 +194,7 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Schilfguertel</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#003728</se:SvgParameter>
@@ -211,7 +211,7 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>geschlossener_Wald</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#0f5f0f</se:SvgParameter>
@@ -232,7 +232,7 @@
 </org:OR>
 </ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#375f0f</se:SvgParameter>
@@ -247,7 +247,7 @@
 <se:Name>BOFlaeche</se:Name>
 <ogc:Filter><ogc:PropertyIsLike wildCard="*" singleChar="." escape="\"><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>.</ogc:Literal></ogc:PropertyIsLike></ogc:Filter>
 <se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>5001.000000</se:MaxScaleDenominator>
+<se:MaxScaleDenominator>100000.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#000000</se:SvgParameter>
