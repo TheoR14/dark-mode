@@ -12,8 +12,8 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Reservoir</ogc:Literal></ogc:PropertyIsEqualTo>
 </org:OR>
 </ogc:Filter>
-<se:MinScaleDenominator>0.1000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>10000000.000000</se:MaxScaleDenominator>
+<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<se:MaxScaleDenominator>2001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:GraphicFill>
@@ -42,8 +42,8 @@
 <ogc:Filter>
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>uebriger_Gebaeudeteil</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
-<se:MinScaleDenominator>0.1000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>10000000.000000</se:MaxScaleDenominator>
+<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<se:MaxScaleDenominator>2001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#690000</se:SvgParameter>
@@ -61,8 +61,8 @@
 <ogc:Filter>
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>eingedoltes_oeffentliches_Gewaesser</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
-<se:MinScaleDenominator>0.1000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>10000000.000000</se:MaxScaleDenominator>
+<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<se:MaxScaleDenominator>2001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:GraphicFill>
@@ -91,8 +91,8 @@
 <ogc:Filter>
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Tunnel_Unterfuehrung_Galerie</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
-<se:MinScaleDenominator>0.1000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>10000000.000000</se:MaxScaleDenominator>
+<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<se:MaxScaleDenominator>2001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:GraphicFill>
@@ -121,8 +121,8 @@
 <ogc:Filter>
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Bruecke_Passerelle</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
-<se:MinScaleDenominator>0.1000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>10000000.000000</se:MaxScaleDenominator>
+<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<se:MaxScaleDenominator>2001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#696969</se:SvgParameter>
@@ -140,8 +140,8 @@
 <ogc:Filter>
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>Unterstand</ogc:Literal></ogc:PropertyIsEqualTo>
 </ogc:Filter>
-<se:MinScaleDenominator>0.1000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>10000000.000000</se:MaxScaleDenominator>
+<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<se:MaxScaleDenominator>2001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
 <se:SvgParameter name="fill">#690000</se:SvgParameter>
@@ -180,8 +180,8 @@
 <ogc:PropertyIsEqualTo><ogc:PropertyName>art_de</ogc:PropertyName><ogc:Literal>schmaler_Weg</ogc:Literal></ogc:PropertyIsEqualTo>
 </org:OR>
 </ogc:Filter>
-<se:MinScaleDenominator>0.1000000</se:MinScaleDenominator>
-<se:MaxScaleDenominator>10000000.000000</se:MaxScaleDenominator>
+<se:MinScaleDenominator>1.000000</se:MinScaleDenominator>
+<se:MaxScaleDenominator>2001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Stroke>
 <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
