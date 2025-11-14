@@ -88,6 +88,7 @@
                             </se:Graphic>
                         </se:GraphicFill>
                         <se:SvgParameter name="fill">#969696</se:SvgParameter>
+                        <se:SvgParameter name="stroke-width">0.25</se:SvgParameter>
                     </se:Fill>
                     <se:Stroke>
                         <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -136,6 +137,7 @@
                                     <se:WellKnownName>x</se:WellKnownName>
                                     <se:Fill>
                                         <se:SvgParameter name="fill">#969696</se:SvgParameter>
+                                        <se:SvgParameter name="stroke-width">0.25</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
                                 <se:Size>3</se:Size>
@@ -162,6 +164,7 @@
                                     <se:WellKnownName>x</se:WellKnownName>
                                     <se:Fill>
                                         <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
+                                        <se:SvgParameter name="stroke-width">0.25</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
                                 <se:Size>3</se:Size>
