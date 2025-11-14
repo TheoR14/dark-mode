@@ -138,7 +138,7 @@
                                         <se:SvgParameter name="fill">#969696</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
-                                <se:Size>1</se:Size>
+                                <se:Size>3</se:Size>
                             </se:Graphic>
                         </se:GraphicFill>
                     </se:Fill>
