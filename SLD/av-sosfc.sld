@@ -133,7 +133,7 @@
                         <se:GraphicFill>
                             <se:Graphic>
                                 <se:Mark>
-                                    <se:WellKnownName>cross</se:WellKnownName>
+                                    <se:WellKnownName>x</se:WellKnownName>
                                     <se:Fill>
                                         <se:SvgParameter name="fill">#969696</se:SvgParameter>
                                     </se:Fill>
@@ -159,7 +159,7 @@
                         <se:GraphicFill>
                             <se:Graphic>
                                 <se:Mark>
-                                    <se:WellKnownName>cross</se:WellKnownName>
+                                    <se:WellKnownName>x</se:WellKnownName>
                                     <se:Fill>
                                         <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
                                     </se:Fill>
