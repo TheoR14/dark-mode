@@ -30,7 +30,7 @@
                                         <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
-                                <se:Size>1</se:Size>
+                                <se:Size>4</se:Size>
                             </se:Graphic>
                         </se:GraphicFill>
                         <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
