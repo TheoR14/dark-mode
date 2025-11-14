@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+1<?xml version='1.0' encoding='utf-8'?>
 <sld:StyledLayerDescriptor xmlns:ogc="http://www.opengis.net/ogc"
                            xmlns:org="http://www.opengis.net/org"
                            xmlns:se="http://www.opengis.net/se"
@@ -30,7 +30,7 @@
                                         <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
-                                <se:Size>4</se:Size>
+                                <se:Size>1</se:Size>
                             </se:Graphic>
                         </se:GraphicFill>
                         <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
@@ -57,7 +57,7 @@
                                         <se:SvgParameter name="fill">#6496ff</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
-                                <se:Size>4</se:Size>
+                                <se:Size>1</se:Size>
                             </se:Graphic>
                         </se:GraphicFill>
                         <se:SvgParameter name="fill">#6496ff</se:SvgParameter>
@@ -84,7 +84,7 @@
                                         <se:SvgParameter name="fill">#969696</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
-                                <se:Size>4</se:Size>
+                                <se:Size>1</se:Size>
                             </se:Graphic>
                         </se:GraphicFill>
                         <se:SvgParameter name="fill">#969696</se:SvgParameter>
@@ -112,7 +112,7 @@
                                         <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
-                                <se:Size>4</se:Size>
+                                <se:Size>1</se:Size>
                             </se:Graphic>
                         </se:GraphicFill>
                     </se:Fill>
@@ -138,7 +138,7 @@
                                         <se:SvgParameter name="fill">#969696</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
-                                <se:Size>4</se:Size>
+                                <se:Size>1</se:Size>
                             </se:Graphic>
                         </se:GraphicFill>
                     </se:Fill>
@@ -164,7 +164,7 @@
                                         <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
                                     </se:Fill>
                                 </se:Mark>
-                                <se:Size>4</se:Size>
+                                <se:Size>1</se:Size>
                             </se:Graphic>
                         </se:GraphicFill>
                     </se:Fill>
