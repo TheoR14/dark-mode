@@ -24,7 +24,7 @@
 <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
 </se:Fill>
 </se:Mark>
-<se:Size>2</se:Size>
+<se:Size>1</se:Size>
 </se:Graphic>
 </se:GraphicFill>
 <se:SvgParameter name="fill">#ff9696</se:SvgParameter>
@@ -73,7 +73,7 @@
 <se:SvgParameter name="fill">#6496ff</se:SvgParameter>
 </se:Fill>
 </se:Mark>
-<se:Size>2</se:Size>
+<se:Size>1</se:Size>
 </se:Graphic>
 </se:GraphicFill>
 <se:SvgParameter name="fill">#6496ff</se:SvgParameter>
@@ -103,7 +103,7 @@
 <se:SvgParameter name="fill">#969696</se:SvgParameter>
 </se:Fill>
 </se:Mark>
-<se:Size>2</se:Size>
+<se:Size>1</se:Size>
 </se:Graphic>
 </se:GraphicFill>
 <se:SvgParameter name="fill">#969696</se:SvgParameter>
