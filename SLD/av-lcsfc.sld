@@ -13,7 +13,7 @@
 <se:MaxScaleDenominator>25001.000000</se:MaxScaleDenominator>
 <se:PolygonSymbolizer>
 <se:Fill>
-<se:SvgParameter name="fill">#ffc8c8</se:SvgParameter>
+<se:SvgParameter name="fill">#ff0000</se:SvgParameter>
 </se:Fill>
 <se:Stroke>
 <se:SvgParameter name="stroke">#000000</se:SvgParameter>
